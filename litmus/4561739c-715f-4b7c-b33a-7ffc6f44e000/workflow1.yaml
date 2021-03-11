@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     cluster_id: 02d178e1-bd65-40db-af57-92f2c4736423
-    workflow_id: ec55bc04-c0e1-4e75-9100-63f152dc5fe0
+    workflow_id: 7787324a-834c-43b4-b654-565265842041
   name: workflow1
   namespace: litmus
 spec:
@@ -127,7 +127,7 @@ spec:
             apiVersion: litmuschaos.io/v1alpha1
             kind: ChaosEngine
             metadata:
-              name: kube-proxy-node-cpu-hog-chaos-1615475409
+              name: kube-proxy-node-cpu-hog-chaos-1615480605
               namespace: "{{workflow.parameters.adminModeNamespace}}"
             spec:
               appinfo:
@@ -156,7 +156,7 @@ spec:
   - arguments: {}
     container:
       args:
-      - kubectl delete chaosengine kube-proxy-node-cpu-hog-chaos-1615475409  -n {{workflow.parameters.adminModeNamespace}}
+      - kubectl delete chaosengine kube-proxy-node-cpu-hog-chaos-1615480605  -n {{workflow.parameters.adminModeNamespace}}
       command:
       - sh
       - -c
