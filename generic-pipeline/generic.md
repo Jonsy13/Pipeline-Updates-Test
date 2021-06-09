@@ -2,14 +2,17 @@
 title: Generic
 layout: template
 filename: generic
---- 
+---
 
 # **Generic E2E Pipeline Execution Details**
 
 **Latest Pipeline Status**
 
-[![pipeline status](https://gitlab.mayadata.io/litmuschaos/litmus-e2e/badges/generic/pipeline.svg)](https://gitlab.mayadata.io/litmuschaos/litmus-e2e/commits/generic)
+[![pipeline status](https://github.com/litmuschaos/litmus-e2e/actions/workflows/scheduled-component-pipeline.yml/badge.svg)](https://github.com/litmuschaos/litmus-e2e/actions/workflows/scheduled-component-pipeline.yml)
 
+[![pipeline status](https://github.com/litmuschaos/litmus-e2e/actions/workflows/scheduled-node-level-pipeline.yml/badge.svg)](https://github.com/litmuschaos/litmus-e2e/actions/workflows/scheduled-node-level-pipeline.yml)
+
+[![pipeline status](https://github.com/litmuschaos/litmus-e2e/actions/workflows/scheduled-pod-level-pipeline.yml/badge.svg)](https://github.com/litmuschaos/litmus-e2e/actions/workflows/scheduled-pod-level-pipeline.yml)
 
 <table>
 <tr>
@@ -64,7 +67,6 @@ filename: generic
 
 <a href="pipeline-runs/https://gitlab.mayadata.io/litmuschaos/litmus-e2e/commits/generic"><img alt="pipeline status" src="https://gitlab.mayadata.io/litmuschaos/litmus-e2e/badges/generic/pipeline.svg" /></a>
 
-
 ## Daily Nightly Builds
 
 <table  cellpadding="5">
@@ -93,6 +95,7 @@ filename: generic
       <b>Component Nightly Build</b>
       </a>
       </td>
+
   </tr>
 
 </table>
@@ -125,10 +128,10 @@ filename: generic
       <b>Component RC Build</b>
       </a>
       </td>
+
   </tr>
 
 </table>
-
 
 ## General Availability(GA) Build
 
@@ -158,6 +161,7 @@ filename: generic
       <b>Component GA Build</b>
       </a>
       </td>
+
   </tr>
 
 </table>
