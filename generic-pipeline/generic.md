@@ -63,10 +63,6 @@ filename: generic
 - [TCID-VMWx-GENERIC-ENGINE-JOB-CLEANUP-POLICY](https://github.com/litmuschaos/litmus-e2e/blob/gh-pages/generic-pipeline/job-cleanup-policy/README.md)
 - [TCID-VMWx-GENERIC-ENGINE-SERVICE-ACCOUNT](https://github.com/litmuschaos/litmus-e2e/blob/gh-pages/generic-pipeline/service-account/README.md)
 
-# **Pipeline Runs**
-
-<a href="pipeline-runs/https://gitlab.mayadata.io/litmuschaos/litmus-e2e/commits/generic"><img alt="pipeline status" src="https://gitlab.mayadata.io/litmuschaos/litmus-e2e/badges/generic/pipeline.svg" /></a>
-
 ## Daily Nightly Builds
 
 <table  cellpadding="5">
