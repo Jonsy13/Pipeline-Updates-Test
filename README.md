@@ -147,7 +147,7 @@ It contains litmus-portal BDD tests using Cypress and Bash Scripts. Currently, i
   </tr>
   <tr>
     <td>Execution plane components check</td>
-    <td>This step is used for verifying all execution plane components created after Portal login such as Workflow Controller, Suscriber and Event-tracker, etc.</td>
+    <td>This step is used for verifying all execution plane components created after Portal login such as Workflow Controller, Subscriber and Event-tracker, etc.</td>
   </tr>
   <tr>
     <td>Post Login features Tests</td>

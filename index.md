@@ -9,11 +9,11 @@ filename: index
 LitmusChaos is a toolset to do [cloud-native chaos engineering](https://dev.to/umamukkara/chaos-engineering-for-cloud-native-systems-2fjn). It takes a cloud-native approach to create, manage and monitor chaos. Chaos is orchestrated using the Kubernetes Custom Resource Definitions (CRDs) which are called ChaosEngine, ChaosExperiment and ChaosResult. For a higher performance we need these components to work accurately according to our hypothesis between every upgrade and updates which brings the need of <b>LitmusChaos E2E</b>.<br>
 The Litmus E2E is broadly divided in three categories Generic, OpenEBS. LitmusPortal managed by respective branch in litmus-e2e repository.
 
-## **Branch Details**
+## **Pipeline Details**
 
 <table>
   <tr>
-    <th>Branch</th>
+    <th>Pipeline</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -144,7 +144,7 @@ It contains litmus-portal BDD tests using Cypress and Bash Scripts. Currently, i
   </tr>
   <tr>
     <td>Execution plane components check</td>
-    <td>This step is used for verifying all execution plane components created after Portal login such as Workflow Controller, Suscriber and Event-tracker, etc.</td>
+    <td>This step is used for verifying all execution plane components created after Portal login such as Workflow Controller, Subscriber and Event-tracker, etc.</td>
   </tr>
   <tr>
     <td>Post Login features Tests</td>
