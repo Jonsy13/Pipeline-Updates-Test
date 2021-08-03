@@ -39,7 +39,6 @@ The Litmus E2E is broadly divided in 2 categories Generic & Litmus-Portal.
 To view the details of the last few pipelines runs:
 
 - Select the buttons from header whose pipeline details you want.
-  > For Pod-Level/Node-Level/Component-Level pipelines, click on `Generic` Button.
 - Inside it contains the details of every job along with pipeline details.
 
 # Pod-Level E2E Pipeline:
