@@ -22,11 +22,11 @@ The Litmus E2E is broadly divided in 2 categories Generic & Litmus-Portal.
   </tr>
   <tr>
     <td>Node-Level pipeline</td>
-    <td>It contains the test cases (GO BDDs) for node-level generic experiments. 
+    <td>It contains the test cases (GO BDDs) for node-level generic experiments.</td>
   </tr>
   <tr>
     <td>Component-Level pipeline</td>
-    <td>It contains the test cases (GO BDDs) for component-level generic experiments. 
+    <td>It contains the test cases (GO BDDs) for component-level generic experiments.</td>
   </tr>
   <tr>
     <td>Litmus-Portal pipeline</td>
