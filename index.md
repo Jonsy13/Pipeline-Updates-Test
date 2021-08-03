@@ -6,7 +6,7 @@ filename: index
 
 # **LitmusChaos E2E**
 
-LitmusChaos is a toolset to do [cloud-native chaos engineering](https://dev.to/umamukkara/chaos-engineering-for-cloud-native-systems-2fjn). It takes a cloud-native approach to create, manage and monitor chaos. Chaos is orchestrated using the Kubernetes Custom Resource Definitions (CRDs) which are called ChaosEngine, ChaosExperiment and ChaosResult. For a higher performance we need these components to work accurately according to our hypothesis between every upgrade and updates which brings the need of <b>LitmusChaos E2E</b>.<br />
+LitmusChaos is a toolset to do [cloud-native chaos engineering](https://dev.to/umamukkara/chaos-engineering-for-cloud-native-systems-2fjn). It takes a cloud-native approach to create, manage and monitor chaos. Chaos is orchestrated using the Kubernetes Custom Resource Definitions (CRDs) which are called ChaosEngine, ChaosExperiment and ChaosResult. For a higher performance we need these components to work accurately according to our hypothesis between every upgrade and updates which brings the need of <b>LitmusChaos E2E</b>.<br>
 The Litmus E2E is broadly divided in 2 categories Generic & Litmus-Portal.
 
 ## **Pipeline Details**
@@ -22,11 +22,11 @@ The Litmus E2E is broadly divided in 2 categories Generic & Litmus-Portal.
   </tr>
   <tr>
     <td>Node-Level pipeline</td>
-    <td>It contains the test cases (GO BDDs) for node-level generic experiments.</td>
+    <td>It contains the test cases (GO BDDs) for node-level generic experiments. 
   </tr>
   <tr>
     <td>Component-Level pipeline</td>
-    <td>It contains the test cases (GO BDDs) for component-level generic experiments.</td> 
+    <td>It contains the test cases (GO BDDs) for component-level generic experiments. 
   </tr>
   <tr>
     <td>Litmus-Portal pipeline</td>
@@ -39,6 +39,7 @@ The Litmus E2E is broadly divided in 2 categories Generic & Litmus-Portal.
 To view the details of the last few pipelines runs:
 
 - Select the buttons from header whose pipeline details you want.
+  > For Pod-Level/Node-Level/Component-Level pipelines, click on `Generic` Button.
 - Inside it contains the details of every job along with pipeline details.
 
 # Pod-Level E2E Pipeline:
