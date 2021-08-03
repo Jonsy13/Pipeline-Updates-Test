@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../../stylesheets/github-light.css" media="screen">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type = "text/javascript" src="../../common/function.js">
       google.charts.load("current", {packages:["corechart"]});
     </script>  
@@ -25,27 +24,10 @@
     </section>
     <section class="main-content">      
     <h2><b>Nightly builds for Portal-E2E</b></h2>
-    <p>Here are the details of latest few pipeline runs for Portal Tests!</p>
+    <p>Here are the details of the recent pipeline runs for Portal Tests!</p>
     <div id='piechart' style='width: 500px; height: 300px; text-align: center; margin: 3 auto;'>
       <script type = 'text/javascript'>
-var data = [['Total', 'Coverage'],['Passed',  60],['Failed',  40],]
+  
       drawCoverageDetails(data);
       </script>
     </div>
-<table>
- <tr>
-  <th>Pipeline ID</th>
-  <th>Execution Time</th>
-  <th>Version</th></tr>
- <tr>
- <tr>
-  <td><a href= "https://github.com/litmuschaos/litmus-e2e/actions/runs/922194086">922194086</a></td>
-  <td>Wed Jun  9 15:17:06 2021(IST)</td>
-  <td>ci</td>
- </tr>
-
-  <td><a href= "https://github.com/litmuschaos/litmus-e2e/actions/runs/273712767">273712767</a></td>
-  <td>Wed Jun  9 10:29:45 2021(IST)</td>
-  <td>ci</td>
- </tr>
-</table>
